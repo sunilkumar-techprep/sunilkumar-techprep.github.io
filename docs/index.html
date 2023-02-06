@@ -1,81 +1,105 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
   <title> Sunil Patel</title>
   <style>
-* {
-  border: thin red dotted;
-}
+    * {
+      border: thin red dotted;
+    }
 
- .banner {
-  display: flex;
-  justify-content: center;
-}
-.banner-image {
-  width: 128px;
-  height: 128px;
-  object-fit: cover;
-  border-radius: 65px;
-}
-  .name{ justify-content: center;display: flex;font-style: italic;font-size: medium;color:blue;
-       }
-.social-icons{justify-content:space-evenly;
-      display:flex;
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 65px;
+    }
+
+    .name {
+      justify-content: center;
+      display: flex;
+      font-style: italic;
+      font-size: medium;
+      color: blue;
+    }
+
+    .social-icons {
+      justify-content: space-evenly;
+      display: flex;
       font-size: 50px;
 
 
     }
- .image{ justify-content: space-around; 
-        display:flex;
-       color:darkorchid;
-       text-align: center;
-       font-size: 18px ;
-       
-      }
-      .image a {text-decoration: none;
-        align-items: center;
-        justify-content: centre;
-        display:flex;
-        color: red;
-        background-color: bisque;
-      }
-.td{text-decoration:none;
-  background-color: bisque;
-    color:darkmagenta;
-    display: flex;
-    justify-content: center;
-    border-radius: 25px;
-    
-    }
-    .quote{
-      justify-content:space-around;
-      display: flex;
-      align-items: center;
-    
-    }
-     
-.slogan{display: flex;
-    justify-content: center;
-    color:darkblue;
-    background-color: bisque;
-    align-items: center;
-    border-color: darkred;
-    border-radius: 25px;
-    font-size: 18px;
-  
 
-  
-  }
+    .image {
+      justify-content: space-around;
+      display: flex;
+      color: darkorchid;
+      text-align: center;
+      font-size: 18px;
+
+    }
+
+    .image a {
+      text-decoration: none;
+      align-items: center;
+      justify-content: centre;
+      display: flex;
+      color: red;
+      background-color: bisque;
+    }
+
+    .td {
+      text-decoration: none;
+      font-size: 25px;
+      color: darkmagenta;
+      display: flex;
+      justify-content: center;
+    
+
+    }
+
+    .container {
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+    .slogan {
+      display: flex;
+      justify-content: center;
+      color: darkblue;
+      background-color: bisque;
+      align-items: center;
+      border-color: darkred;
+      border-radius: 20px;
+      font-size: 25px;
+    }
+
+    .center {
+      display: flex;
+      justify-content:flex-start;
+      align-items:center;
+      border: 3px solid green;
+
+    }
 
   </style>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
-  
-</head>
-  <body>
-    
-  <div class="banner"> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
 
-     <img src="/images/profile-pic.jpg" alt="Sunil Patel headshot"class="banner-image">
+</head>
+
+<body>
+
+  <div class="banner">
+
+    <img src="/images/profile-pic.jpg" alt="Sunil Patel headshot" class="banner-image">
   </div>
 
 
@@ -86,28 +110,59 @@
 
   <div class="social-icons">
     <a href="https://twitter.com/scpatel27" target="_blank">
-    <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-twitter"></i>
     </a>
     <a href="https://github.com/sunilkumar-techprep" target="_blank">
-    <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-github"></i>
     </a>
     <a href="https://www.instagram.com/scpatel80/" target="_blank">
-    <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-instagram"></i>
     </a>
     <a href="https://www.facebook.com/sunilpatel2780/" target="_blank">
-    <i class="fa-brands fa-facebook"></i></a>
-   </div>
-   
-   <div class="quote">
-     <img src="/images/Abdulkalam.jpg" alt="Abdul kalam photo" class="banner-image">
-     <p class="slogan">"Failure will never overtake me if my determination to succeed is strong enough."</p>
-     <a class="td"href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">Abdul Kalam</a>
-    </div>
-     
-  
+      <i class="fa-brands fa-facebook"></i></a>
+  </div>
+
+
+
+    <div class="center">
+
+      <img src="/images/Abdulkalam.jpg" alt="Abdul kalam photo" class="banner-image">
     
-    </body>
-  </head>
+        <p class="slogan">"Failure will never overtake me if my determination to succeed is strong enough."</p>
+      
+      <a class="td" href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">Abdul Kalam </a>
+    
+  </div>
   
+
+
+  <div class="center">
+    <img src="/images/abrahamlincoln.jpg" alt="Abraham Lincoln photo" class="banner-image">
+    <p class="slogan"> "I am not bound to win, but I am bound to be true. I am not bound to succeed, but I am bound to
+      live up to what light I have."</p>
+    <a class="td" href="https://en.wikipedia.org/wiki/Abraham_Lincoln" target="_blank">Abraham Lincoln</a>
+  </div>
+
+  <div class="center">
+    <img src="/images/Einstein.jpg" alt="Albert Einstein photo" class="banner-image">
+    <p class="slogan"> "Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning."</p>
+    <a class="td" href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">Albert  Einstein</a>
+  </div>
+
   
-  </html>
+  <div class="center">
+    <img src="/images/Ramanujan.jpg" alt="srinivasa ramanujan photo" class="banner-image">
+    <p class="slogan"> "An equation for me has no meaning, unless it expresses a thought of God."</p>
+    <a class="td" href="https://en.wikipedia.org/wiki/Srinivasa_Ramanujan" target="_blank">Srinivasa Ramanujan</a>
+  </div>
+  <div class="center">
+    <img src="/images/swami-vivekananda.jpg" alt="swami vivekananda photo" class="banner-image">
+    <p class="slogan"> "Arise, awake, and don't stop till you reach your goal."</p>
+    <a class="td" href="https://en.wikipedia.org/wiki/Swami_Vivekananda" target="_blank">Swami Vivekananda</a>
+  </div>
+
+</body>
+</head>
+
+
+</html>
