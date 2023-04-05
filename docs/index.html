@@ -2,12 +2,19 @@
 <html>
 
 <head>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!--div><a href="/">Home</a></div>
+    <div><a href=/Techskills>skills</a></div-->
   <title> Sunil Patel</title>
   <style>
-    * {
-      border: thin red dotted;
-    }
 
+    body{background-color:rgba(144, 225, 140, 0.409);}
+    
+    /** {
+            border: thin red dotted;
+          }*/
     .banner {
       display: flex;
       justify-content: center;
@@ -60,10 +67,11 @@
       color: darkmagenta;
       display: flex;
       justify-content: center;
-    
+
 
     }
-
+.sym {display:flex;
+  text-align: center;}
     .container {
       justify-content: center;
       align-items: center;
@@ -84,12 +92,52 @@
 
     .center {
       display: flex;
-      justify-content:flex-start;
-      align-items:center;
+      justify-content: flex-start;
+      align-items: center;
       border: 3px solid green;
 
     }
+    
+    .misson {
+      display: flex;
+      font-style:bold;
+      align-items: center;
+      
+      font: 25px;
+      color:rgb(255, 80, 80);
+    }
+        
+    .card-header {
+      display: flex;
+      justify-content:center;
+      /*align-items: left;*/
+      color:purple;
+      font-size: 25px;
+      border-color: 2px solid green;
+      border-radius: 200px;
 
+    }
+.card-title{justify-content:left;
+
+}
+.nav-link{
+      justify-content:center;
+      color:black;
+      font-size: 30px;
+      font-style: normal;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .mg{
+      margin-left:auto;
+      margin-right: auto;
+    }
   </style>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
 
@@ -97,6 +145,40 @@
 
 <body>
 
+  <nav class="navbar navbar-dark bg-primary">
+    <div class="container">
+      
+    
+    <a  class="navbar-brand" class="navbar-nav" href="/">Home</a>
+    <a  class="navbar-brand" class="navbar-nav" href="/Resume">Resume</a>
+    <a  class="navbar-brand" class="navbar-nav" href="/AboutMe">AboutMe</a>
+    <a  class="navbar-brand" class="navbar-nav" href="Techskills">Technical skills</a>
+    <a  class="navbar-brand" class="navbar-nav" href="/Contact">Contact</a>
+    <a  class="navbar-brand" class="navbar-nav" href="/Mission">Mission</a>
+    <a  class="navbar-brand" class="navbar-nav" href="/Portfolio">My Portfolio</a>
+    
+    <!--div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Resume<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#TechnicalSkills">TechnicalSkills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#AboutMe">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Mission">Mission </a>
+        </li>
+        
+      </ul>
+    </div-->
+    </div>
+  </nav>
   <div class="banner">
 
     <img src="/images/profile-pic.jpg" alt="Sunil Patel headshot" class="banner-image">
@@ -106,7 +188,31 @@
   <div class="name">
     <h1>Sunilkumar Patel</h1>
   </div>
+  <!--div class="social-icons">
+    <div class="col-sm-4">
+        <ul class="list-unstyled">
+            <li><a href=""><span class="Institution website"></span>www.jntuk.edu.in</a>
+            </li>
+            <li><a href=""><span class="social fa fa-skype"></span>sirishajntuk</a>
+            </li>
+            <li><a href="sirisha.velampalli@gmail.com"><span class="social fa fa-envelope-o"></span>sirisha.velampali@gmail.com</a>
+            </li>
+        </ul>
+    < social 1st col end>
 
+    
+        <ul class="list-unstyled">
+            <li><a href=""><span class="social fa fa-facebook"></span>Facebook</a>
+            </li>
+            <li><a href=""><span class="social fa fa-twitter"></span>Twitter</a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/v-krishna-sirisha-477a3a13b/"><span class="social fa fa-linkedin"></span>Linkedin</a>
+            </li>
+        </ul>
+    </div>< social 2nd col end>
+
+    
+<div><header social end-->
 
   <div class="social-icons">
     <a href="https://twitter.com/scpatel27" target="_blank">
@@ -120,10 +226,124 @@
     </a>
     <a href="https://www.facebook.com/sunilpatel2780/" target="_blank">
       <i class="fa-brands fa-facebook"></i></a>
+    </li>
+
   </div>
+  <!--div>
+  <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+    <div class="card-header">Technical Skills</div>
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <p class="card-text">java</p>
+      <p class="card-text">ruby</p>
+
+    </div>
+ 
+
+  <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+    <div class="card-header">Education</div>
+    <div class="card-body">
+      <h5 class="card-title">Bachelors of Science</h5>
+      <p class="card-text"> Mathematics</p>
+      <h5 class="card-title">Masters of Science</h5>
+      <p class="card-text"> Mathematics</p>
+    </div>
+  </div>
+</div>
+  <div class="row mobmid">
+    <div class="col-sm-1 col-md-2">
+        <span class="secicon fa fa-trophy"></span>
+    </div><icon end>
+
+    <div class="col-md-4 mainright">
+      <div class="row">
+          <div> class="col-sm-1 col-md-2 mobmid">
+              <span class="secicon fa fa-magic"></span>
+          </div>
+          <icon end-->
+
+  <div class="row mb" >
+    <div class=""card text-bg-info mb-3"" style="max-width: 18rem;">
+     
+      <div class="card-header">EDUCATION</div>
+      <div class="card-body">
+        <ul>
+        <li><h5 class="card-title">Bachelors of Science </h5>
+        <p class="card-text">Mathematics, S.P.University, Gujarat, India</p></li>
+       <li> <h5 class="card-title">Masters of Science </h5>
+        <p class="card-text">Mathematics,S.P.University, Gujarat, India</p></li>
+       <li> <h5 class="card-title">Masters of Education </h5>
+        <p class="card-text"> Gujarat University,Gujarat, India</p></li>
+       </ul>
+      </div>
+    </div>
+
+    <!--div class=""card text-bg-info mb-3"" style="max-width: 18rem;">
+     
+      <div class="card-header">Technical skills</div>
+      <div class="card-body"-->
+        
+        <!--li><h5 class="card-title"><h5></li-->
+          <!--ul>
+        <li><p class="card-text">HTML</p></li>
+        <li><p class="card-text">CSS</p></li>
+        <li><p class="card-text">JavaScript</p></li>
+        <li><p class="card-text">Ruby </p></li>
+        <li><p class="card-text">Ruby on Rails</p></li>
+        <li><p class="card-text">SQL</p></li>
+      </ul>
+      </div>
+      
+    </div-->
+    <div class=""card text-bg-info mb-3"" style="max-width: 18rem;">
+      <div class="card-header"  >EXPERIENCE</div>
+      <div class="card-body">
+       <ul> 
+        <li><h5 class="card-title">Full Stack Developer Apprentice </h5>
+        <p class="card-text">At Discovery Partners Institutes, Chicago, IL</p></li>
+        <li><h5 class="card-title">Pharmacy Technician </h5>
+        <p class="card-text">At CVS Caremarks, Mount Prospect, Illinois </p></li>
+        <li><h5 class="card-title">Wallmart</h5>
+        <p class="card-text">Associate, Addison,IL</p></li>
+      </ul>
+      </div>
+    </div>
+    <!--div><a href="/">Home</a></div>
+    <div><a href=/Techskills>skills</a></div-->
+    <!--div class = "misson">
+      <p >My mission is to use my creativity and problem-solving skills to make a positive impact on society. Through my work, I aim to inspire others to pursue their passions and achieve their goals, while always striving for excellence and continuous improvement.</p>
+    <!--div class=""card text-bg-info mb-3"" style="max-width: 18rem;">
+      <div class="card-header">Experience</div>
+      <div class="card-body">
+        <h5 class="card-title">Full Stack Developer Apprentice </h5>
+        <p class="card-text">At Discovery Partners Institutes, Chicago, IL</p>
+        <h5 class="card-title">Pharmacy Technician </h5>
+        <p class="card-text">At CVS Caremarks, Mount Prospect, Illinois </p>
+      </div>
+    </div>
+  
+<div><a href=/Techskills>skills</a></div>
+    <!--div id="education">
+
+      <span class="secicon fa fa-graduation-cap"></span>
 
 
 
+      <h3>Education</h3>
+
+    </div>
+    <===========================
+                SIDEBAR
+                =========================== -->
+    <!--div class="col-md-5 mainright">
+      <!--div class="row"-->
+      <!--div class="col-sm-1 col-md-2 mobmid">
+                            <span class="secicon fa fa-magic"></span>
+                        </div><icon end-->
+      <!--span class="fa-solid fa-wand-magic-sparkles"></span-->
+      <!--div class="col-sm-11 col-md-10"-->
+      <!--h3>Technical skills</h3>
+    </div>
     <div class="center">
 
       <img src="/images/Abdulkalam.jpg" alt="Abdul kalam photo" class="banner-image">
@@ -160,9 +380,19 @@
     <p class="slogan"> "Arise, awake, and don't stop till you reach your goal."</p>
     <a class="td" href="https://en.wikipedia.org/wiki/Swami_Vivekananda" target="_blank">Swami Vivekananda</a>
   </div>
+  <div class="col-md-4 mainright">
+    <div class="row">
+        <div class="col-sm-1 col-md-2 mobmid">
+            <span class="secicon fa fa-magic"></span>
+        </div><icon end>
+          * {
+            border: thin red dotted;
+          --}
+      
 
 </body>
 </head>
 
 
 </html>
+ 
