@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
 
   def index 
 
-    render({ :template => "layouts/mailer.html.erb" })
+    render({ :template => "layouts/index.html.erb" })
   end 
 def aboutme
   render({ :template => "layouts/aboutme.html.erb" })
@@ -18,5 +18,8 @@ def aboutme
  end
  def portfolio
   render({ :template => "layouts/portfolio.html.erb" })
+ end
+ def techskill
+  render({ :template => "layouts/techskill.html.erb" })
  end
 end

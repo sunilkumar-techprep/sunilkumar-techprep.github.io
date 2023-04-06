@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get("/Techskills", { :controller => "application", :action => "index" })
+  get("/Techskills", { :controller => "application", :action => "techskill" })
 
   get("/", { :controller => "application", :action => "index" })
   get("/AboutMe", { :controller => "application", :action => "aboutme" })
